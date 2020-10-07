@@ -3,7 +3,7 @@ services:
   - docker
 env:
   global:
-    - IMAGE_NAME=terradue/eoepca-vegetation-index
+    - IMAGE_NAME=eoepca/vegetation-index
     - VERSION=1.0
 
 before_script:
